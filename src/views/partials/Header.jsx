@@ -42,7 +42,7 @@ function Header( {sidebarStore} ) {
                 src={logoUrl}
               />
               <span className="side-nav__header__text text-black pt-0.5 text-lg ml-2.5">
-                Degen Media
+                Detroit Meta
               </span>
             </Link>
           </div>

@@ -7,10 +7,26 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 
 import Banner from '../partials/Banner';
+import DegenVilla from '../../assets/images/degen-villa.jpeg';
+
+
+import Header from '../partials/Header';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div 
+    className="flex flex-col min-h-screen overflow-hidden"
+    style={{
+      backgroundImage: `url(${DegenVilla})` ,
+       backgroundRepeat: 'no-repeat'  
+    }}
+    >
+
+      <Header
+           
+         />
+
+
  
       {/*  Page content */}
       <main className="flex-grow">

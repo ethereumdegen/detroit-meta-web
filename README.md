@@ -1,8 +1,5 @@
-##  Degen Media 
-
-Marketing for the decentralized age
-
-
+##  Detroit Meta 
+ 
 #### TODO 
 
 Build a frontend page (splash) 

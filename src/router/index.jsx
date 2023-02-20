@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router-dom";
-import MainLayout from "../layouts/Main";
+import WelcomeLayout from "../layouts/Welcome";
 import DashboardLayout from "../layouts/Dashboard";
 import DashboardOverview1 from "../views/dashboard-overview-1/Main";
   
@@ -24,7 +24,7 @@ function Router() {
   const routes = [
     {
       path: "/",
-      element: <MainLayout />,
+      element: <WelcomeLayout />,
       children:  [ 
           {
             path:"/",
