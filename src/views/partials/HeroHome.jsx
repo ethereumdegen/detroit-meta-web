@@ -31,13 +31,14 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-16 pb-12 md:pt-40 md:pb-20 ">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Leading education for <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">DeFi</span></h1>
+          <div className="text-center pt-16 pb-12 md:pb-16 bg-black bg-opacity-75 ">
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-gray-200 " data-aos="zoom-y-out">Experience Local Artists </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Curating the best content for decentralized finance, so you can learn about web3 technology on the cutting edge.</p>
+              <p className="text-xl text-gray-200 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Bringing Detroit's artwork to the forefront of the digital space.   </p>
+              <p className="text-md text-gray-200 mb-8" data-aos="zoom-y-out" data-aos-delay="150">   Metaverse galleries ⟠ Digital biographies ⟠ Videography </p>
              
          
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center hidden" data-aos="zoom-y-out" data-aos-delay="300" style={{display:'none'}}>
@@ -55,18 +56,10 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-              <div className="flex flex-col justify-center">
               
-
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Lbo5G_rd6lc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
- 
-              </div>
-              <a className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" href="http://defipenthouse.com">
-                <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
-                  <path d="M10 17l6-5-6-5z" />
-                </svg>
-                <span className="ml-3">Defi Penthouse Channel</span>
+              <a className="absolute top-full flex items-center transform -translate-y-1/2 bg-white font-medium group p-4 shadow-lg" href="http://oncyber.io/detroitcube">
+                
+                <span className="text-2xl">✨ The Art Gallery ✨</span>
               </a>
             </div>
 

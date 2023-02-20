@@ -7,7 +7,7 @@ import { linkTo, nestedMenu, enter, leave } from "./index";
 import { Lucide } from "@/base-components";
 import dom from "@left4code/tw-starter/dist/js/dom";
 import SimpleBar from "simplebar";
-import logoUrl from "@/assets/images/degenbro.png";
+import logoUrl from "@/assets/images/d_meta_logo.png";
 import classnames from "classnames";
 import Web3Sidebar from "@/views/components/web3-sidebar/Main.jsx";
  

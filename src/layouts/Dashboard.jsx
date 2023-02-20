@@ -8,7 +8,7 @@ import { linkTo, nestedMenu, enter, leave } from "./index";
 import { Lucide } from "@/base-components";
 import dom from "@left4code/tw-starter/dist/js/dom";
 import SimpleBar from "simplebar";
-import logoUrl from "@/assets/images/degenbro.png";
+import logoUrl from "@/assets/images/d_meta_logo.png";
 import classnames from "classnames";
 import TopBar from "@/components/top-bar/Main";
 import DarkModeSwitcher from "@/components/dark-mode-switcher/Main";

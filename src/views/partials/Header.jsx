@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
  
 
-import logoUrl from "@/assets/images/degenbro_dark.png";
+import logoUrl from "@/assets/images/d_meta_logo.png";
 
 import ethLogoSolid from "@/assets/images/eth-logo-solid.png";
 
